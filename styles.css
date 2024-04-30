@@ -1,0 +1,34 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 25%; /* Porcentaje del ancho de la pantalla */
+  margin-left: auto; /* esto alinea las cajas a la derecha */
+}
+
+.box {
+  flex: 1; /* Las cajas ocupan el mismo espacio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
